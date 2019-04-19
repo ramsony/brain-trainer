@@ -31,7 +31,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="6dp"
-        android:background="#08673AB7"
+        android:background="#0F673AB7"
         android:padding="10sp"
         android:text="30s"
         android:textColor="#B89C27B0"
@@ -48,7 +48,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginBottom="6dp"
-        android:background="#089C27B0"
+        android:background="#0F9C27B0"
         android:padding="10sp"
         android:text="0/0"
         android:textColor="#B89C27B0"
@@ -66,6 +66,7 @@
         android:layout_marginTop="40dp"
         android:layout_marginEnd="49dp"
         android:layout_marginRight="49dp"
+        android:background="#0F03A9F4"
         android:padding="10sp"
         android:text="31 + 7"
         android:textColor="#B803A9F4"
@@ -151,10 +152,11 @@
     </android.support.v7.widget.GridLayout>
 
     <TextView
-        android:id="@+id/ResultTextView"
+        android:id="@+id/resultTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="46dp"
+        android:background="#0FFFEB3B"
         android:text="Correct!"
         android:textSize="50sp"
         app:layout_constraintEnd_toEndOf="parent"
